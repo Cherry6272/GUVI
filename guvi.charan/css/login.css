@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #ecf0f1;
+}
+
+.container {
+    width: 500px;
+    height: 370px;
+    border-radius: 30px;
+    background-color: #34495e;
+    padding-top: 30px;
+    margin-top: 14em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.form {
+    background-color: #34495e;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.form h1 {
+    text-align: center;
+    color: #ecf0f1;
+    font-size: 24px; /* Adjust font size to match the Register page */
+}
+
+#notification {
+    color: rgb(243, 130, 16);
+}

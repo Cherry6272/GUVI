@@ -1,0 +1,26 @@
+.profile{
+    background-color: #ffffff50;
+    margin-top: 1em;
+    padding: 3em;
+    border-radius: 1em;
+    justify-content: center;
+    box-shadow: 1px 2px 5px 4px rgba(192, 187, 187, 0.711);
+    
+}
+.profile p{
+    color: blue;
+}
+.profile span{
+    color: rgb(0, 0, 0);
+    
+}
+.form-control {
+border: none;
+background-color: aliceblue;
+color: crimson;
+}
+
+img{
+    width: 10em;
+    border: 1px solid red;
+}

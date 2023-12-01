@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(135deg, #2c3e50, #3498db); /* Gradient background from dark blue to light blue */
+    font-family: 'Roboto', sans-serif; /* A clean and modern font */
+    margin: 0;
+    color: #ecf0f1; /* Light gray text color for better contrast */
+}
+
+.container {
+    margin: 50px auto;
+    width: 500px;
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #34495e; /* Dark blue container background */
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.center-text {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2c3e50; /* Darker border color for better visibility */
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #34495e; /* Dark blue text color */
+    background-color: #ecf0f1; /* Light gray input background */
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #e74c3c; /* Red button color for contrast */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #c0392b; /* Darker red on hover for a subtle effect */
+}
+
+#result
